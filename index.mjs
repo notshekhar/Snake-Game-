@@ -109,7 +109,7 @@ function draw() {
     if (gameRunnning) {
         //cleaning canvas
         cleanCanvas()
-        drawGrids()
+        // drawGrids()
         if (snake.isDead() || gameOver) {
             gameOver = true
             gameRunnning = false
